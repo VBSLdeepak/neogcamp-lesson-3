@@ -83,3 +83,14 @@ hr{
 .main .main-heading .main-heading-high{
     color:var(--primary-color);
 }
+/* Sections */
+.section{
+    padding:2rem;
+}
+.section h1{
+    text-align:center;
+}
+.ofw{
+    background-color: var(--dark-gray);
+    border-radius: 1rem;
+}
