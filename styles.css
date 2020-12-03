@@ -2,11 +2,12 @@
 
 :root{
     --primary-color:#3B82F6;
-    --dark-gray:#6B7280;
+    --dark-gray:#F3F4F6;
 }
 
 body{
     font-family: 'Libre Baskerville', serif;
+    margin:0px;
 
 }
 hr{
@@ -26,15 +27,17 @@ hr{
 .link{
  text-decoration: none;
  padding:.5rem 1rem;
- border-radius: 00.5rem;
+ 
 }
 .primary-link{
     background-color:var(--primary-color);
     color:white;
+    border-radius: 00.5rem;
 }
 .secondary-link{
     border:1px solid var(--primary-color);
     color:var(--primary-color);
+    border-radius: 00.5rem;
 }
 
 /* lists */
@@ -92,5 +95,23 @@ hr{
 }
 .ofw{
     background-color: var(--dark-gray);
-    border-radius: 1rem;
+
+}
+/* footer */
+.footer{
+    background-color: var(--primary-color);
+    padding:2rem 1rem;
+    text-align:center;
+    color:white;
+    border-top-right-radius: 1rem;
+    
+}
+
+.footer .link{
+    color:white;
+
+}
+.footer ul{
+    padding-inline-start: 0px;
+    
 }
